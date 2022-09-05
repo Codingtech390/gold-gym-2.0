@@ -44,7 +44,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       <Typography variant="h4" fontWeight="bold" sx={{ fontSize: { lg: '44px', xs: '30px' } }} mb="46px">Showing Results</Typography>
       <Stack direction="row" sx={{ gap: { lg: '50px', xs: '50px' } }} flexWrap="wrap" justifyContent="center">
         {currentExercises.map((exercise, idx) => (
-          <ExerciseCard key={idx} exercise={exercise} />  
+          <ExerciseCard key={idx} exercise={exercise} />
         ))}
       </Stack>
       <Stack sx={{ mt: { lg: '114px', xs: '70px' } }} alignItems="center">
